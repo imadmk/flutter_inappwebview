@@ -51,4 +51,6 @@ android {
         implementation 'com.squareup.okhttp3:okhttp:3.14.9'
         implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
     }
+
+    if (project.android.hasProperty("namespace")) { namespace 'com.pichillilorenzo.flutter_inappwebview' }
 }
